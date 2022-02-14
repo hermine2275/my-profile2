@@ -1,0 +1,115 @@
+
+ body{
+
+	background: white;
+    color: 
+rgb(193, 163, 163);
+    font-family: font-family: 'Lora', serif;
+}
+h1,h2, h3{
+	font-family: font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 35px;
+}
+h1 {
+	color:rgb(255, 175, 175) ;
+	font-weight: 900;
+
+}
+h2 {
+	color:rgb(255, 175, 175) ;
+	font-weight: 300;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 92, 141);
+    font-weight: bolder;
+    font-size: 18px;
+
+
+}
+
+
+
+/*Design with class*/
+.container {
+width:  700px;
+margin:  40px auto;
+
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		
+	}
+}
+
+
+
+
+.card-white {
+	background-color:  white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+
+}
+
+
+.img-circle{
+	border-radius: 50%;
+
+}
+
+.btn-pink{
+	background-color:rgb(255, 175, 175);
+    color: white;
+    padding: 15px 20px;
+}
+
+ .btn-pink:hover{
+
+ 	background-color: rgb(193, 163, 163);
+ 	color: white;
+ }
+
+.list-inline {
+	outline-style: none;
+	padding-left: 0px;
+
+}
+
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 60px;
+}
+
+
+#intro p{
+   margin-bottom: 50px;
+}
+.fa-brands:hover{
+	background-color: white;
+	color:rgb(193, 163, 163) ;
+} 
+
